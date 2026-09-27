@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>خبر | مؤسسه منظومه خرد</title>
+  <meta name="description" content="متن کامل خبر از پایگاه اطلاع‌رسانی منظومه خرد.">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="news">
+<div id="site-header"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="page-hero__bg"><img src="assets/img/auditorium.jpg" alt=""></div>
+    <div class="container page-hero__content">
+      <nav class="breadcrumb" aria-label="مسیر"><a href="index.html">خانه</a><span class="sep">‹</span><a href="news.html">اخبار</a><span class="sep">‹</span><span class="current" id="crumbTitle">متن خبر</span></nav>
+      <h1 style="font-size:clamp(1.3rem,2.4vw,1.7rem)">پایگاه اطلاع‌رسانی منظومه خرد</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container article-layout">
+      <article class="article" data-article aria-label="متن خبر"></article>
+      <aside class="sidebar">
+        <div class="widget">
+          <h3>تازه‌ترین خبرها</h3>
+          <div data-render="widget-posts"></div>
+        </div>
+        <div class="widget widget--cta">
+          <h3>عضویت در خبرنامه</h3>
+          <p>مهم‌ترین اخبار خرد، ماهانه در ایمیل شما.</p>
+          <form data-newsletter class="footer__newsletter" style="margin-top:0">
+            <input type="email" placeholder="ایمیل شما…" aria-label="ایمیل خبرنامه" required>
+            <button type="submit">عضویت</button>
+          </form>
+        </div>
+        <div class="widget">
+          <h3>دسترسی سریع</h3>
+          <div class="widget__post"><span><strong><a href="news.html">← بازگشت به آرشیو اخبار</a></strong></span></div>
+          <div class="widget__post"><span><strong><a href="admissions.html">← پذیرش سال تحصیلی جدید</a></strong></span></div>
+          <div class="widget__post"><span><strong><a href="contact.html">← ارتباط با روابط عمومی</a></strong></span></div>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section section--gray" style="padding-top:64px">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="kicker">بیشتر بخوانید</span>
+        <h2 class="section__title">اخبار مرتبط</h2>
+      </div>
+      <div class="cards cards--3" data-render="related" data-current="1"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/components.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
