@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>پذیرش و ثبت‌نام | مؤسسه منظومه خرد</title>
+  <meta name="description" content="فرایند پذیرش سال تحصیلی ۱۴۰۶–۱۴۰۵ منظومه خرد؛ مراحل، مدارک، شهریه و فرم پیش‌ثبت‌نام آنلاین.">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="admissions">
+<div id="site-header"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="page-hero__bg"><img src="assets/img/auditorium.jpg" alt=""></div>
+    <div class="container page-hero__content">
+      <nav class="breadcrumb" aria-label="مسیر"><a href="index.html">خانه</a><span class="sep">‹</span><span class="current">پذیرش و ثبت‌نام</span></nav>
+      <h1>پذیرش سال تحصیلی ۱۴۰۶–۱۴۰۵</h1>
+      <p>ظرفیت محدود ۲۸۰ صندلی در پایه‌های اول، هفتم و دهم — پیش‌ثبت‌نام از ۵ مهر آغاز می‌شود.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section__head section__head--center reveal">
+        <span class="kicker">مسیر پذیرش</span>
+        <h2 class="section__title">۴ گام تا پیوستن به خانواده خرد</h2>
+      </div>
+      <div class="steps">
+        <div class="step reveal"><span class="step__num">۱</span><h3>ثبت‌نام آنلاین</h3><p>تکمیل فرم پیش‌ثبت‌نام همین صفحه در کمتر از ۵ دقیقه</p></div>
+        <div class="step reveal reveal--delay-1"><span class="step__num">۲</span><h3>جلسه آشنایی</h3><p>گفت‌وگوی صمیمی خانواده با مشاوران مجموعه (رایگان)</p></div>
+        <div class="step reveal reveal--delay-2"><span class="step__num">۳</span><h3>سنجش آمادگی</h3><p>ارزیابی استعداد و آمادگی پایه دانش‌آموز، بدون استرس</p></div>
+        <div class="step reveal reveal--delay-3"><span class="step__num">۴</span><h3>اعلام نتیجه</h3><p>نتیجه نهایی حداکثر ظرف ۱۰ روز کاری اعلام می‌شود</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section--gray">
+    <div class="container">
+      <div class="split" style="align-items:start">
+        <div class="reveal">
+          <span class="kicker">راهنمای خانواده‌ها</span>
+          <h2 class="section__title" style="margin-bottom:20px">مدارک و شرایط</h2>
+          <ul class="checklist">
+            <li><span class="checklist__tick">✓</span>تصویر شناسنامه و کارت ملی دانش‌آموز و والدین</li>
+            <li><span class="checklist__tick">✓</span>کارنامه دو سال تحصیلی اخیر</li>
+            <li><span class="checklist__tick">✓</span>یک قطعه عکس پرسنلی جدید دانش‌آموز</li>
+            <li><span class="checklist__tick">✓</span>تکمیل فرم سلامت و رضایت‌نامه فوق‌برنامه‌ها</li>
+          </ul>
+          <div class="quote" style="background:#fff">
+            <p style="font-size:1rem">«شهریه هر سال در خردادماه اعلام می‌شود؛ پرداخت در ۴ قسط، تخفیف ثبت‌نام زودهنگام و تسهیلات ویژه خانواده‌های دارای دو دانش‌آموز.»</p>
+            <footer>واحد پذیرش — <strong>۰۲۱-۲۲۲۲۳۳۳۳ داخلی ۲</strong></footer>
+          </div>
+          <a href="faq.html" class="card__link">سوالات متداول پذیرش <span class="arrow">←</span></a>
+        </div>
+        <div class="contact-card reveal reveal--delay-1" id="form">
+          <h2 style="font-size:1.3rem;font-weight:800;color:var(--ink);margin-bottom:6px">فرم پیش‌ثبت‌نام آنلاین</h2>
+          <p style="font-size:0.9rem;color:var(--ink-3);margin-bottom:20px">پس از ثبت، کد پیگیری پیامک و جلسه آشنایی هماهنگ می‌شود.</p>
+          <form class="form" id="admissionForm" novalidate>
+            <div class="notice" role="status"></div>
+            <div class="form__row">
+              <div class="field"><label>نام و نام خانوادگی دانش‌آموز <i>*</i></label><input class="input" name="student" required placeholder="مثلاً: علی رضایی"></div>
+              <div class="field"><label>کد ملی دانش‌آموز <i>*</i></label><input class="input" name="nid" required inputmode="numeric" placeholder="۱۰ رقم"></div>
+            </div>
+            <div class="form__row">
+              <div class="field"><label>پایه ورودی <i>*</i></label>
+                <select class="select" name="grade" required>
+                  <option value="">انتخاب کنید…</option>
+                  <option>اول دبستان</option><option>هفتم (متوسطه اول)</option><option>دهم (متوسطه دوم)</option><option>میان‌پایه (نقل‌وانتقال)</option>
+                </select>
+              </div>
+              <div class="field"><label>شماره تماس والدین <i>*</i></label><input class="input" name="phone" required inputmode="tel" placeholder="۰۹…"></div>
+            </div>
+            <div class="field"><label>توضیحات (اختیاری)</label><textarea class="textarea" name="desc" style="min-height:100px" placeholder="نکته‌ای که دوست دارید مشاوران ما بدانند…"></textarea></div>
+            <button type="submit" class="btn btn--primary" style="width:100%">ثبت درخواست پذیرش</button>
+            <p style="font-size:0.82rem;color:var(--ink-3);text-align:center">ثبت فرم به‌منزله پذیرش قطعی نیست؛ نتیجه پس از جلسه آشنایی اعلام می‌شود.</p>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/components.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>

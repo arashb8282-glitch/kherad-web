@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>اخبار و رویدادها | مؤسسه منظومه خرد</title>
+  <meta name="description" content="آخرین اخبار، افتخارات، اطلاعیه‌ها و تقویم رویدادهای منظومه خرد.">
+  <link rel="icon" href="assets/img/logo.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="news">
+<div id="site-header"></div>
+
+<main>
+  <section class="page-hero">
+    <div class="page-hero__bg"><img src="assets/img/library.jpg" alt=""></div>
+    <div class="container page-hero__content">
+      <nav class="breadcrumb" aria-label="مسیر"><a href="index.html">خانه</a><span class="sep">‹</span><span class="current">اخبار و رویدادها</span></nav>
+      <h1>اخبار و رویدادها</h1>
+      <p>تازه‌ترین خبرها، افتخارات و اطلاعیه‌های رسمی مجموعه — مستقیم از روابط عمومی خرد.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="reveal" data-render="featured"></div>
+    </div>
+  </section>
+
+  <section class="section section--gray" style="padding-top:64px">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="kicker">آرشیو</span>
+        <h2 class="section__title">همه خبرها</h2>
+      </div>
+      <div class="cards cards--3" data-render="posts" data-limit="6"></div>
+    </div>
+  </section>
+
+  <section class="section" id="events">
+    <div class="container">
+      <div class="section__head reveal">
+        <span class="kicker">تقویم خرد</span>
+        <h2 class="section__title">رویدادهای پیش رو</h2>
+        <p class="section__sub">برای حضور در رویدادهای عمومی، رزرو از طریق واحد ارتباطات انجام می‌شود.</p>
+      </div>
+      <div class="cards cards--2" data-render="events" data-limit="4"></div>
+    </div>
+  </section>
+</main>
+
+<div id="site-footer"></div>
+<script src="assets/js/data.js" defer></script>
+<script src="assets/js/components.js" defer></script>
+<script src="assets/js/main.js" defer></script>
+</body>
+</html>
